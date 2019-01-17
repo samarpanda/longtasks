@@ -1,0 +1,20 @@
+{
+  "name": "longtasks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/longtasks.js",
+  "scripts": {
+    "test": "",
+    "build": "terser -c -m -o dist/longtasks.min.js src/longtasks.js"
+  },
+  "devDependencies": {
+    "terser": "^3.14.1"
+  },
+  "repository": "git@github.com:samarpanda/longtasks.git",
+  "author": "Samar Panda <er.samarpanda@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samarpanda/longtasks/issues"
+  },
+  "homepage": "https://github.com/samarpanda/longtasks#longtasks"
+}
