@@ -38,8 +38,6 @@
       listenerAdded = true
       window.addEventListener('load', subscribeToLongTasks)
     }
-  } else {
-    console.log(`LongTask not supported`)
   }
 
   self['perfMetrics'] = self['perfMetrics'] || {}
