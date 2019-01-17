@@ -1,5 +1,5 @@
 ## LongTasks
-[longtasks](https://www.w3.org/TR/longtasks/) to capture long tasks occurrences in browser applications
+[longtasks](https://www.w3.org/TR/longtasks/) JavaScript library is to capture long tasks occurrences in browser applications
 
 ## Usage
 
