@@ -8,6 +8,7 @@
     "build": "terser -c -m -o dist/longtasks.min.js src/longtasks.js"
   },
   "devDependencies": {
+    "eslint": "^5.15.2",
     "terser": "^3.14.1"
   },
   "repository": "git@github.com:samarpanda/longtasks.git",

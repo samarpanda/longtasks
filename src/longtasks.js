@@ -15,6 +15,10 @@
   }
 
   function subscribeToLongTasks(){
+    if(listenerAdded){
+      window.removeEventListener('load', subscribeToLongTasks);
+      listenerAdded = false;
+    }
     var observer = new PerformanceObserver(longTaskHandler)
     observer.observe({entryTypes: ['longtask']})
   }
